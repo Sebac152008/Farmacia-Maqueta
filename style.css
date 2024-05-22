@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F1F1F6;
+    padding: 20px;
+}
+/*CABECERA*/
+header{
+    max-width: 1000px;
+    min-height: 130px;
+    margin: 0 auto;
+    border-radius: 20px 20px 0 0;
+    background: #ffffff;
+}
+#logo {
+    width: 320px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    animation: 1s entradalogo 1;
+}
+#logo img {
+    width: 200px;
+    height: 100px;
+}
+/*CABECERA*/
+
+
+/*MENU HORIZONTAL*/
+#nav-h{
+    max-width: 1000px;
+    min-height: 50px;
+    background: #1D1753;
+    margin: 0 auto;
+}
+
+#nav-h ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#nav-h a {
+    color: white;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    background: #1D1753;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#nav-h ul ul {
+    display: none;
+    position: absolute;
+}
+
+#nav-h ul li:hover ul {
+    display: block;
+}
+
+#nav-h a:hover {
+    background: red;
+}
+/*MENU HORIZONTAL*/
+
+
+
+/*BANNER*/
+#ban {
+    background: white;
+    max-width: 1000px;
+    min-height: 350px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#banner{
+    max-width: 1000px;
+    min-height: 350px;
+    margin: 0 auto;
+    animation: slider 35s infinite alternate ease-in-out;
+    margin-top: -50px;
+}
+
+#banner img {
+    width: 1000px;
+    height: 350px;
+    margin: 50px auto 0;
+}
+#banner ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+}
+#banner li {
+    list-style: none;
+}
+/*BANNER*/
+
+
+#contenedor{
+    max-width: 1000px;
+    min-height: 700px;
+    background: white;
+    margin: 0 auto;
+}
+
+
+/*CONTENIDO*/
+#contenido{
+    width: 1000px;
+    min-height: 800px;
+    background: white;
+    margin: 0 auto;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.inicio-contenido {
+    background: #F1F1F6;
+    width: 600px;
+    height: 750px;
+    border-radius: 20px;
+}
+.inicio-contenido p, li {
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.Vision-mision {
+    background: #F1F1F6;
+    width: 500px;
+    height: 750px;
+    border-radius: 20px;
+}
+.Vision-mision h2 {
+    margin-left: 40px;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #524C8B;
+}
+.Vision-mision p {
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.historia {
+    background: #271F6E;
+    width: 450px;
+    height: 550px;
+    border-radius: 20px;
+    margin-left: 520px;
+    margin-top: -750px;
+}
+.historia h2 {
+    margin-left: 40px;
+    padding-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #524C8B;
+    padding-right: 40px;
+    color: white;
+}
+.historia p {
+    font-family: "Lato", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6em;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: white;
+}
+.formulario button {
+    width: 300px;
+    height: 50px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 3px;
+    background: rgb(203, 51, 59);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+.formulario button:hover {
+    background: rgb(180, 178, 178);
+}
+.formulario {
+    width: 460px;
+    height: 650px;
+    background: white;
+    box-shadow: 0px 3px 5px rgb(22, 18, 18);
+    margin-left: 350px;
+    border-radius: 10px;
+    padding-left: 140px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.formulario input {
+    width: 300px;
+    height: 50px;
+    color: rgb(197, 196, 196);
+    border-radius: 5px;
+    border: 1px rgb(203, 200, 200) solid;
+}
+.formulario p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2.5em;
+}
+#Mensaje {
+    width: 300px;
+    height: 100px;
+}
+/*CONTENIDO*/
+
+/*PIE DE PAGINA*/
+footer{
+    max-width: 1000px;
+    background: #271F6E;
+    margin: 0 auto;
+    border-radius: 0 0 20px 20px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+
+/*PIE DE PAGINA*/
+
+
+/*KEYFRAMES*/
+
+@keyframes entradalogo {
+    0% {
+        transform: translateX(200px);
+    }
+}
+
+@keyframes rotacion {
+    0% {
+        transform: rotate(270deg);
+    }
+}
+
+/*Slider*/
+@keyframes slider {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+}
+/*Slider*/
+
+
+/*KEYFRAMES*/
